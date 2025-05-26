@@ -80,7 +80,7 @@ function MainNav() {
         <li>
           <StyledNavLink to="/users">
             <HiOutlineUsers />
-            <span>Booking</span>
+            <span>Users</span>
           </StyledNavLink>
         </li>
         <li>
