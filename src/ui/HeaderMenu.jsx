@@ -1,4 +1,5 @@
 import Logout from "../features/authentication/Logout";
+import DarkModeToggle from "../ui/DarkModeToggle";
 
 import styled from "styled-components";
 import ButtonIcon from "./ButtonIcon";
@@ -21,6 +22,9 @@ function HeaderMenu() {
       </li>
       <li>
         <Logout />
+      </li>
+      <li>
+        <DarkModeToggle />
       </li>
     </StyledHeaderMenu>
   );
