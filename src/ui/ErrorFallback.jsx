@@ -30,7 +30,6 @@ const Box = styled.div`
   }
 `;
 
-import React from "react";
 import Heading from "./Heading";
 import Button from "./Button";
 import GlobalStyle from "../styles/GlobalStyle";
