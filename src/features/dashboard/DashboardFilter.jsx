@@ -9,7 +9,6 @@ function DashboardFilter() {
 
   if (isLoading1 || isLoading2) return <Spinner />;
 
-  console.log(bookings);
   return (
     <Filter
       filterField="last"
